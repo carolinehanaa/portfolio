@@ -12,7 +12,7 @@ function ProjectsComponent() {
                 <Row className='projects-row'>
                     <div className='projects'>
                         <div className='col-lg-3 col-md-12'>
-                            <a className='projects-subtitle' href="https://serenity-mental-health.azurewebsites.net"  target="_blank"> Serenity</a>
+                            <a className='projects-subtitle' href="https://serenitymentalhealth.azurewebsites.net"  target="_blank"> Serenity</a>
                             <p className='projects-desc'>Serenity is my original mental health app, currently being developed by my team and me. Our aim is to provide a secure platform where thousands of people can easily access the help they need and find a safe space to improve their mental health.</p>
                         </div>
                         <div className='col-lg-3 col-md-12'>

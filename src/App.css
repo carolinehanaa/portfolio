@@ -15,6 +15,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: space-between;
   color: white;
   font-family: 'Kanit', sans-serif;;
   font-weight: 700;
@@ -31,11 +32,18 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: space-between !important;
   flex-direction: row;
   margin: none !important;
 }
 
+.nav-info{
+  font-family: 'Kanit', sans-serif;;
+  font-weight: 700;
+    font-size: 18px !important;
+    line-height: normal;
+    color: white !important;
+}
 
 
 .jelly {
@@ -254,7 +262,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 320px;
     height: 100%;
     z-index: -1;
   }

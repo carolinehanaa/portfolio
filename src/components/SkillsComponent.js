@@ -16,6 +16,10 @@ import git from '../assets/github.png';
 import jira from '../assets/jira.png';
 import figma from '../assets/figma.png';
 import drawio from '../assets/drawio.png';
+import angular from '../assets/angular.png';
+import lua from '../assets/Lua-Logo.svg.png';
+import bulma from '../assets/bulma.png';
+import devops from '../assets/devops.png';
 
 
 function SkillsComponent() {
@@ -36,6 +40,7 @@ function SkillsComponent() {
                                 <li className='skills-logo'>SQL <img className='sql-logo' src={sql} alt='sql'/> </li>
                                 <li className='skills-logo'>JavaScript <img className='logo' src={js} alt='js'/> </li>
                                 <li className='skills-logo'>TypeScript <img className='logo' src={ts} alt='ts'/> </li>
+                                <li className='skills-logo'>Lua <img className='logo' src={lua} alt='lua'/> </li>
                             </ul>
                         </div>
                         <div className='col-3'>
@@ -45,6 +50,8 @@ function SkillsComponent() {
                                 <li className='skills-logo'>Bootstrap <img className='logo' src={bootstrap} alt='bootstrap'/> </li>
                                 <li className='skills-logo'>.NET <img className='logo' src={dotnet} alt='.net'/> </li>
                                 <li className='skills-logo'>Tailwind CSS <img className='logo' src={tailwind} alt='tailwind'/> </li>
+                                <li className='skills-logo'>Angular <img className='logo' src={angular} alt='angualr'/> </li>
+                                <li className='skills-logo'>Bulma <img className='logo' src={bulma} alt='bulma'/> </li>
                                 <li className='skills-logo'>Unity <img className='logo' src={unity} alt='unity'/> </li>
                             </ul>
                         </div>
@@ -54,6 +61,7 @@ function SkillsComponent() {
                                 <li className='skills-logo'>Notion <img className='logo' src={notion} alt='notion'/> </li>
                                 <li className='skills-logo'>Git <img className='logo' src={git} alt='git'/> </li>
                                 <li className='skills-logo'>Jira <img className='logo' src={jira} alt='jira'/> </li>
+                                <li className='skills-logo'>Azure DevOps <img className='logo' src={devops} alt='devops'/> </li>
                                 <li className='skills-logo'>Figma <img className='logo' src={figma} alt='figma'/> </li>
                                 <li className='skills-logo'>Draw.io <img className='logo' src={drawio} alt='drawio'/> </li>
                             </ul>
