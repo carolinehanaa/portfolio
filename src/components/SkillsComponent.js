@@ -27,11 +27,11 @@ function SkillsComponent() {
         <div>
             <div className="container">
                 <div className='row-fix'>
-                    <h1 className='projects-title'> SKILLS</h1>
+                    <h1 id='skills' className='projects-title'> SKILLS</h1>
                 </div>
                 <Row className='projects-row'>
                     <div className='skills'>
-                        <div className='col-3'>
+                        <div className='col-3-lg'>
                             <h1 className='projects-subtitle'> Technologies/ <span>Languages</span></h1>
                             <ul className='skills-desc'>
                                 <li className='skills-logo' >HTML<img className='circle-logo' src={HTML} alt='html'/> </li>

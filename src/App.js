@@ -10,7 +10,7 @@ import FooterComponent from './components/FooterComponent';
 function App() {
   return (
     <div className="App">
-      <AnimatedCircles />
+      {/* <AnimatedCircles /> */}
       <NavbarComponent />
       <HeaderComponent />
       <ProjectsComponent />

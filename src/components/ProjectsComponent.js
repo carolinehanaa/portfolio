@@ -7,7 +7,7 @@ function ProjectsComponent() {
         <div>
             <div className="container">
                 <div className='row-fix'>
-                    <h1 className='projects-title'> PROJECTS</h1>
+                    <h1 id='projects' className='projects-title'> PROJECTS</h1>
                 </div>
                 <Row className='projects-row'>
                     <div className='projects'>
@@ -16,7 +16,7 @@ function ProjectsComponent() {
                             <p className='projects-desc'>Serenity is my original mental health app, currently being developed by my team and me. Our aim is to provide a secure platform where thousands of people can easily access the help they need and find a safe space to improve their mental health.</p>
                         </div>
                         <div className='col-lg-3 col-md-12'>
-                            <a className='projects-subtitle' href="https://carolinesadvicegen.azurewebsites.net"  target="_blank" >Advice Generator</a>
+                            <a className='projects-subtitle' href="https://caroladvicegen.azurewebsites.net"  target="_blank" >Advice Generator</a>
                             <p className='projects-desc'>The Advice Generator app generates random advice by pulling information from an API. Simply click the button to receive your personalized piece of advice.</p>
                         </div>
                         <div className='col-lg-3 col-md-12'>

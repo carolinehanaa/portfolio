@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
 
 .ch-logo {
   width: 150px;
@@ -10,6 +11,19 @@
   background-color: black;
 }
 
+.navbar {
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255) !important;
+  --bs-navbar-brand-margin-end: 0px !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-between;
+  }
+}
+
 .name {
   display: flex;
   flex-direction: row;
@@ -17,18 +31,36 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-family: 'Kanit', sans-serif;;
+  font-family: "MuseoModerno", cursive !important;
   font-weight: 700;
 }
 
-.navbar>.container,
-.navbar>.container-fluid,
-.navbar>.container-lg,
-.navbar>.container-md,
-.navbar>.container-sm,
-.navbar>.container-xl,
-.navbar>.container-xxl {
-  margin-top: none;
+.line {
+  border-bottom: solid white 1px !important;
+}
+
+.phone-info {
+  color: white;
+  font-family: "MuseoModerno", cursive !important;
+  font-weight: 700;
+}
+
+.personal-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5%;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  margin-top: 10px;
   display: flex;
   flex-wrap: nowrap;
   align-items: baseline;
@@ -37,14 +69,18 @@
   margin: none !important;
 }
 
-.nav-info{
-  font-family: 'Kanit', sans-serif;;
-  font-weight: 700;
-    font-size: 18px !important;
-    line-height: normal;
-    color: white !important;
+a {
+  text-decoration: none !important;
 }
 
+.nav-info {
+  font-family: "MuseoModerno", cursive !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px !important;
+  line-height: normal;
+  color: white !important;
+}
 
 .jelly {
   width: 300px;
@@ -55,9 +91,9 @@
   justify-content: center;
   margin: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  border: 3px solid transparent;
-  background-image: linear-gradient(to right, #330082, #5a0075);
-  animation: morphing 10s infinite;
+  border: 15px solid transparent;
+  background-color: #a154f2;
+  animation: morphing 15s infinite;
   overflow: hidden;
   box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
 }
@@ -86,7 +122,7 @@
   color: white;
   display: flex;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
 }
 
@@ -109,7 +145,7 @@ p {
 .projects-title {
   margin-top: 50px;
   color: white;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 800;
   font-size: 30px;
 }
@@ -118,14 +154,13 @@ p {
   color: white;
   display: flex;
   align-items: flex-start;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 30px !important;
-
 }
 
 .projects-subtitle {
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -134,7 +169,6 @@ p {
   margin-top: 30px;
   padding-right: 20px;
 }
-
 
 :root {
   --bs-link-color: #ffffff !important;
@@ -160,7 +194,7 @@ p {
 }
 
 .row {
-   --bs-gutter-x: 0;
+  --bs-gutter-x: 0;
 }
 
 @media (max-width: 768px) {
@@ -181,14 +215,14 @@ p {
   .projects-title {
     margin-top: 50px;
     color: white;
-    font-family: 'Kanit', sans-serif;;
+    font-family: "Kanit", sans-serif;
     font-weight: 800;
     font-size: 40px;
   }
 
   .projects-subtitle {
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     margin-bottom: 30px;
   }
@@ -197,7 +231,7 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
   }
 
@@ -205,11 +239,10 @@ p {
     color: white;
     display: flex;
     align-items: flex-start;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 30px !important;
     flex-direction: column;
     flex-wrap: nowrap;
-
   }
 
   .projects-desc {
@@ -227,18 +260,15 @@ p {
     width: 200px;
   }
 
-
   .name {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     color: white;
-    font-family: 'Kanit', sans-serif;;
+    font-family: "Kanit", sans-serif;
     font-weight: 700;
   }
-
-
 }
 
 @media (max-width: 480px) {
@@ -249,14 +279,23 @@ p {
     top: 20%;
   }
 
+  .personal-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5%;
+  }
+
   .about-me {
     color: white;
     display: flex;
+    text-align: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
+    width: 320px;
   }
-
 
   .animated-circles {
     position: fixed;
@@ -271,22 +310,28 @@ p {
     color: white;
     display: flex;
     align-items: flex-start;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
     margin-top: 30px !important;
     flex-direction: column;
     flex-wrap: nowrap;
-
+    width: 320px;
   }
 
   .skills {
     color: white;
     display: flex;
     align-items: flex-start;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
     margin-top: 30px !important;
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 320px;
+  }
 
+  .skills-desc {
+    margin: 0px !important;
   }
 
   .name {
@@ -295,13 +340,14 @@ p {
     flex-wrap: nowrap;
     align-items: center;
     color: white;
-    font-family: 'Kanit', sans-serif;;
+    font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    width: 300px;
   }
 
   .container {
-    width: 600px !important;
+    width: 320px !important;
   }
 
   .row-fix {
@@ -311,10 +357,7 @@ p {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-
-
 }
-
 
 @keyframes vawe {
   20% {
@@ -334,7 +377,6 @@ p {
   }
 }
 
-
 .container {
   position: relative;
   z-index: 1 !important;
@@ -345,7 +387,7 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 30px !important;
 }
 
@@ -356,8 +398,6 @@ p {
   gap: 39px;
   margin-top: 50px !important;
   margin-bottom: 50px;
-  /* padding-left: 50px !important;
-  padding-right: 50px !important; */
 }
 
 .paper {
@@ -372,30 +412,29 @@ p {
   max-width: 50px;
 }
 
-.logo{
+.logo {
   width: 30px;
   height: 30px;
 }
 
-.sql-logo{
+.sql-logo {
   width: 30px;
   height: 30px;
 }
 
-.circle-logo{
+.circle-logo {
   width: 30px;
   border-radius: 50%;
-
 }
 
-.skills-logo{
+.skills-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
-.info{
-  font-family: 'Kanit', sans-serif;
+.info {
+  font-family: "Kanit", sans-serif;
   color: white;
 }
